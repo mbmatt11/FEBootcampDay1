@@ -1,0 +1,147 @@
+/*** 
+Global
+***/
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: FFF;
+	font-family: "Open Sans","Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #333333;
+
+}
+
+
+/*** 
+Hero
+***/
+
+a.active {
+	background: #2A8FBD;
+	color: #FFF;
+	border-radius: 5px;
+	padding: .5rem 1.5rem;
+}
+
+section.hero {
+background: url(banner.jpg);
+background-size: cover;
+padding: 40px 35px;
+color: #FFF;
+}
+
+section.hero h1 {
+font-size: 2rem;
+text-transform: uppercase;
+margin: 0px;
+float: left;
+}
+
+section.hero nav.navbar ul {
+float: right;
+margin: 10px;
+}
+
+section.hero nav.navbar ul li{
+display: inline;
+margin-left: 1rem;
+}
+
+section.hero nav.navbar ul li a {
+text-decoration: none;
+text-transform: uppercase;
+color: #FFF;
+font-size: .75rem;
+}
+
+
+section.hero h2 {
+font-size: 3rem;
+text-align: center;
+margin: 8rem 8rem 2rem;
+}
+
+section.hero p {
+text-align: center;
+font-weight: 300;
+color: rgba(255,255,255,0.75);
+margin: 0 4rem;
+}
+
+div.mainbutton {
+	text-align: center;
+	padding: 4rem 0 6rem;
+}
+
+div.mainbutton a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+/*** 
+Main Content
+***/
+
+section.main-content{
+margin: 5rem 2rem;
+}
+
+section.main-content h2{
+font-size: 2rem;
+margin: 0;
+}
+
+section.main-content h3{
+font-weight: 300;
+margin: 0 0 3rem;
+text-transform: uppercase;
+}
+
+div.blog{
+	float: left;
+	width:60%;
+	margin-right: 5%
+}
+
+div.blog p.end{
+	margin-bottom: 5rem;
+}
+
+div.sidebar{
+	float: right;
+	width: 30%;
+	margin-right: 5%
+}
+
+div.sidebar h3{
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 1rem;
+}
+
+div.sidebar p {
+	margin-bottom: 5rem;
+}
+
+
+/*** 
+Footer
+***/
+
+footer{
+clear: both;
+background: #333333;
+padding: 4rem 0 8rem;
+}
+
+footer p{
+text-align: center;
+
+color: #FFF;
+font-weight: 300;
+font-size: .75rem;
+text-transform: uppercase;
+}
